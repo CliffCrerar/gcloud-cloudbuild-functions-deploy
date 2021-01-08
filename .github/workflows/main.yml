@@ -39,6 +39,7 @@ jobs:
       - id: Deploy
         uses: google-github-actions/deploy-cloud-functions@main
         with:
+          credentials: ${{ secrets.GCP_SA_KEY }}  
           name: my-function
           runtime: nodejs10
                 echo test, and deploy your project.
