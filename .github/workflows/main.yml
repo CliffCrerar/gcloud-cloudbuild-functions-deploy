@@ -33,7 +33,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           npm i,
-          npm testm
+          npm test
           npm build
           
       - id: Deploy
