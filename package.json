@@ -1,0 +1,24 @@
+{
+  "name": "gcloud-cloudbuild-functions-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "functions-framework --target=helloWorld"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CliffCrerar/gcloud-cloudbuild-functions-deploy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CliffCrerar/gcloud-cloudbuild-functions-deploy/issues"
+  },
+  "homepage": "https://github.com/CliffCrerar/gcloud-cloudbuild-functions-deploy#readme",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.7.1"
+  }
+}
